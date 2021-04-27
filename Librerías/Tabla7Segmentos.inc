@@ -1,0 +1,18 @@
+Binario_a_7Segmentos
+	addwf PCL,F
+Tabla 	retlw 3fh	;Código 7 segmentos para el "0"
+		retlw 06h	;Código 7 segmentos para el "1"
+		retlw 5Bh	;Código 7 segmentos para el "2"
+		retlw 4Fh	;Código 7 segmentos para el "3"
+		retlw 66h	;Código 7 segmentos para el "4"
+		retlw 6Dh	;Código 7 segmentos para el "5"
+		retlw 7Dh	;Código 7 segmentos para el "6"
+		retlw 07h	;Código 7 segmentos para el "7"
+		retlw 7Fh	;Código 7 segmentos para el "8"
+		retlw 67h	;Código 7 segmentos para el "9"
+		retlw 77h	;Código 7 segmentos para el "A"
+		retlw 7Ch	;Código 7 segmentos para el "B"
+		retlw 39h	;Código 7 segmentos para el "C"
+		retlw 5Eh	;Código 7 segmentos para el "D"
+		retlw 79h	;Código 7 segmentos para el "E"
+		retlw 71h	;Código 7 segmentos para el "F"
